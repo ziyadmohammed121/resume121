@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Playfair:ital,wght@0,500;0,700;0,800;0,900;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair', serif;
+    background-color: rgb(230, 238, 237);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 1rem;
+}
+
+nav .logo {
+    width: 180px;
+    border-radius: 100px;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.title h1 {
+    width: 80%;
+    font-size: 80px;
+    color: rgb(112, 110, 110);
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: rgb(0, 4, 0);
+}
+
+.title p {
+    color: rgb(11, 9, 9);
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.title a {
+    background-color: rgb(8, 15, 8);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+    border-left: 50%;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+
+#about {
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 30px;
+
+}
+
+.heading span {
+    color: rgb(28, 73, 28);
+    font-size: 20px;
+}
+
+.aboutContent {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 2rem;
+
+}
+
+.aboutImg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.information {
+    margin: 1rem 0 1.4rem 0;
+}
+
+.information .info-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.information .info-box span {
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+#skill {
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-right: 8%;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 16px;
+    margin-top: 5rem;
+}
+
+.skill-image img {
+    width: 300px;
+    height: 300px;
+    object-position: center;
+    margin-left: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bar-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.bar-box span {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.light-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.percentage-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: green;
+    border-radius: 0.5rem;
+}
+
+.html-bar {
+    width: 98%;
+}
+
+.css-bar {
+    width: 95%;
+}
+
+.js-bar {
+    width: 85%;
+}
+
+.react-bar {
+    width: 90%;
+}
+#contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+}
+.iconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    background-color: azure;
+}
+.icon{
+    font-size: 20px;
+    color: rgb(14, 17, 17);
+}
+.icon:hover{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 35%, rgba(0,212,255,1) 100%)
+}
+.icon i :hover{
+    color:white;
+}
+footer{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.uparrow{
+    margin: 1rem,2rem;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uparrow:hover{
+    background-image: linear-gradient(red, yellow);
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: yellowgreen;
+}
